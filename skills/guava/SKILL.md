@@ -36,8 +36,12 @@ ImmutableList<String> names = ImmutableList.copyOf(sourceNames);
 
 ## 方法用途与优先级
 
-按场景读取 [方法用途与选择](references/selection-guide.md)，先核对已有项目能力、业务语义和当前依赖版本。未覆盖的方法继续查版本索引、源码与官方文档，不根据名称猜测。
+按场景读取 [方法用途与选择](references/selection-guide.md) 和 [常用方法中文说明](references/usage-extended.md)，先核对已有项目能力、业务语义和当前依赖版本。未覆盖的方法继续查版本索引、源码与官方文档，不根据名称猜测。
 
 ## 查找全部方法
 
 查看本技能的 [公开 API 索引](references/API-INDEX.md)，按包或名称定位方法与重载；调用前再查官方文档和项目实际版本。索引记录声明，不等于逐项解释、使用建议或兼容性保证；注意继承方法与索引范围。
+
+## 源码方法说明
+
+查看 [固定版本源码说明索引](references/source-notes/README.md) 按类和重载检索上游方法摘要；索引明确标记未翻译与无注释项，具体场景和优先级仍以本技能及项目规范为准。
